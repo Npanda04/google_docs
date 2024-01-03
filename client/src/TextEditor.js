@@ -22,7 +22,7 @@ export default function TextEditor() {
   const [quill, setQuill] = useState();
 
   useEffect(() => {
-    const s = io("https://google-docs-lsx3.onrender.com");
+    const s = io("https://google-docs-lsx3.onrender.com"); // render's backend link.
     setSocket(s);
     return () => {
       s.disconnect();
