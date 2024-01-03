@@ -14,7 +14,7 @@ const { Socket } = require("socket.io");
 
 const io = require("socket.io")(3001, {
   cors: {
-    origin: ["google-docs-nu.vercel.app" , "http://localhost:3000"],
+    origin: "*",
     methods: ["GET", "POST"],
   },
 });
