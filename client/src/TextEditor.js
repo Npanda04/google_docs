@@ -7,7 +7,7 @@ import { useParams } from "react-router-dom";
 const TOOLBAR_OPTIONS = [
   [{ header: [1, 2, 3, 4, 5, 6, false] }],
   [{ font: [] }],
-  ["bold", "italic", "underline"], // toggled buttons
+  ["bold", "italic", "underline" ,"link"], // toggled buttons
   ["image", "blockquote", "code-block"],
   [{ list: "ordered" }, { list: "bullet" }],
   [{ script: "sub" }, { script: "super" }], // superscript/subscript
